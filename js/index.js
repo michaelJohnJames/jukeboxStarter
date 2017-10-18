@@ -1,4 +1,4 @@
-
+(function jukebox() {
 var audio = document.getElementById('audio');
 var play = document.getElementById('play');
 var pause = document.getElementById('pause');
@@ -61,5 +61,6 @@ function nextsong() {
 play.addEventListener('click', playsong);
 pause.addEventListener('click', pausesong);
 stop.addEventListener('click', stopsong);
-next.addEventListener('click', nextsong);
+next.addEventListener('click', nextsong)
 //hitchhiker.addEventListener('click', hitchhiker)
+})();
