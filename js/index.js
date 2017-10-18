@@ -7,6 +7,7 @@ var next = document.getElementById('next');
 var hitchhiker = document.getElementById('btn3');
 var strength = document.getElementById('btn4');
 var powderfinger = document.getElementById('btn5');
+var duration = document.getElementById('duration');
 
 //var songs = [
  //song1 = [ audio.src = 'audio/hitchhiker.mp3' },
@@ -55,8 +56,8 @@ function stopsong() {
  audio.currentTime = 0;
 };
 
-function volume() {
-  audio.volume;
+function duration() {
+  audio.duration();
 }
 
 //function nextsong() {
@@ -102,5 +103,6 @@ stop.addEventListener('click', stopsong);
 hitchhiker.addEventListener('click', playsong1);
 strength.addEventListener('click', playsong2);
 powderfinger.addEventListener('click', playsong3);
+duration.addEventListener('load', duration);
 
 })()
