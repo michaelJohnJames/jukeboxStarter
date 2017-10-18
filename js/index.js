@@ -9,6 +9,8 @@ var strength = document.getElementById('btn4');
 var powderfinger = document.getElementById('btn5');
 var duration = document.getElementById('duration');
 
+document.getElementById('songtext').innerHTML = 'Hitchhiker By Neil Young'
+
 //var songs = [
  //song1 = [ audio.src = 'audio/hitchhiker.mp3' },
  //song2 = { Title: 'Give Me Strength', Artist: 'Neil Young', src: 'audio/givemestrength.mp3' } ],
