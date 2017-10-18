@@ -5,9 +5,10 @@
 
 
 h1 {
- font-size: 90px;
+ font-size: 85px;
  font-family: 'Fascinate Inline', cursive;
  margin-left: 400px;
+ position: relative;
  }
 
 .box2 {
@@ -64,6 +65,8 @@ h1 {
   color: yellow;
   margin-left: 4px;
   border-radius: 20%;
+  font-size: 15px;
+  font-family: American Typewriter, serif;
   text-decoration: none;
 }
 
