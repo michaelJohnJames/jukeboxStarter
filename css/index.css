@@ -1,15 +1,13 @@
-
 * {
   box-sizing: border-box;
 }
 
-
 h1 {
- font-size: 85px;
- font-family: 'Fascinate Inline', cursive;
- margin-left: 400px;
- position: relative;
- }
+  font-size: 85px;
+  font-family: 'Fascinate Inline', cursive;
+  text-align: center;
+  position: relative;
+}
 
 .box2 {
   width: 600px;
@@ -19,18 +17,15 @@ h1 {
   border-radius: 5%;
   margin: 0 auto;
   box-shadow: 1px 1px 5px black;
-
 }
 
 .container {
- height: 400px;
- border: 5px dashed black;
- width: 100%;
- background-color: #e6f2ff;
- border-radius: 10%;
- margin-bottom: 10px;
-
-
+  height: 400px;
+  border: 5px dashed black;
+  width: 100%;
+  background-color: #e6f2ff;
+  border-radius: 10%;
+  margin-bottom: 10px;
 }
 
 #songtext {
@@ -39,26 +34,25 @@ h1 {
   font-family: American Typewriter, serif;
   padding: 8px;
   animation: song 15s infinite;
-
 }
 
 @keyframes song {
-  0% { transform: translateX(190px)
+  0% {
+    transform: translateX(190px)
   }
- 100% { transform: translateX(10px)
- }
- }
-
+  100% {
+    transform: translateX(10px)
+  }
+}
 
 .button-box {
   margin: 10px auto;
   width: 500px;
   height: 50px;
   padding: 10px;
-
 }
 
-#play, #pause, #stop, #next {
+#play, #pause, #stop {
   width: 150px;
   height: 30px;
   background-color: black;
@@ -68,11 +62,6 @@ h1 {
   font-size: 15px;
   font-family: American Typewriter, serif;
   text-decoration: none;
-}
-
-input {
-  width: 250px;
-  margin-left: 500px;
 }
 
 button:hover {
@@ -95,8 +84,6 @@ button:hover {
   font-size: 20px;
   font-family: American Typewriter, serif;
   padding-left: 20px;
-
-
 }
 
 #btn4 {
@@ -136,4 +123,110 @@ button:hover {
   text-align: center;
   font-family: 'Fascinate Inline', cursive;
   margin-bottom: 5px;
+}
+
+@media all and (max-width: 650px) {
+  .box2 {
+    width: 200px;
+    height: 50px;
+    color: black;
+    background-color: black;
+    border-radius: 5%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px black;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-family: 'Fascinate Inline', cursive;
+    text-align: center;
+  }
+
+  #songtext {
+    color: yellow;
+    font-size: 15px;
+    font-family: American Typewriter, serif;
+    padding: 8px;
+    animation: none;
+  }
+
+  #btn3 {
+    width: 325px;
+    height: 50px;
+    background-color: black;
+    border-radius: 5%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px black;
+    display: block;
+    color: yellow;
+    text-align: center;
+    font-size: 20px;
+    font-family: American Typewriter, serif;
+    padding-left: 20px;
+  }
+
+  #btn4 {
+    width: 325px;
+    height: 50px;
+    background-color: black;
+    border-radius: 5%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px black;
+    display: block;
+    color: yellow;
+    text-align: center;
+    font-size: 19px;
+    font-family: American Typewriter, serif;
+    padding-left: 20px;
+  }
+
+  #btn5 {
+    width: 325px;
+    height: 50px;
+    background-color: black;
+    border-radius: 5%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px black;
+    display: block;
+    color: yellow;
+    text-align: center;
+    font-size: 20px;
+    font-family: American Typewriter, serif;
+    padding-left: 20px;
+  }
+
+  #instructions {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Fascinate Inline', cursive;
+    margin-bottom: 5px;
+  }
+
+  .container {
+    height: 300px;
+    border: 5px dashed black;
+    width: 100%;
+    background-color: #e6f2ff;
+    border-radius: 10%;
+    margin-bottom: 10px;
+  }
+
+  .button-box {
+    margin: 0 150px;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+  }
+
+  #play, #pause, #stop {
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    color: yellow;
+    margin: 0 auto;
+    border-radius: 20%;
+    font-size: 10px;
+    font-family: American Typewriter, serif;
+    text-decoration: none;
+  }
 }
